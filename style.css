@@ -52,7 +52,7 @@ header, footer {
     background-color: #333;
     color: white;
     text-align: center;
-    border-bottom: 5px solid #ff6347;
+    border-bottom: 5px solid #70ddeb;
     padding: 20px;
     position: relative;
 }
@@ -61,7 +61,7 @@ img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    border: 5px solid #ff6347;
+    border: 5px solid #74eae2;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     position: absolute;
     top: 20px;
@@ -79,7 +79,7 @@ a {
 }
 
 a:hover {
-    color: #ff6347;
+    color: #70dee6;
 }
 
 header h1 {
@@ -110,14 +110,14 @@ nav a {
     display: inline-block;
     color: #fff;
     text-decoration: none;
-    background-color: #ff6347;
+    background-color: #6fdcde;
     padding: 5px 10px;
     border-radius: 5px;
     margin: 0 10px;
 }
 
 nav a:hover {
-    background-color: #f53d1c;
+    background-color: #66d0e0;
     color: white;
 }
 
@@ -182,7 +182,7 @@ h3 {
 .contact form button {
     display: block;
     padding: 10px 20px;
-    background-color: #ff6347;
+    background-color: #70cde2;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -209,9 +209,9 @@ h3 {
     height: 90px;
     background-color: transparent;
     border-radius: 5px;
-    border: 10px solid #ff6347;
-    box-shadow: 0 0 20px 5px #ff6347, 0 0 20px 5px #ff6347 inset;
-    color: #ff6347;
+    border: 10px solid #79d3f1;
+    box-shadow: 0 0 20px 5px #6dd2e0, 0 0 20px 5px #71cee3 inset;
+    color: #2b3484;
     font-size: 50px;
     display: flex;
     justify-content: center;
