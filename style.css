@@ -211,48 +211,28 @@ h3 {
     border-radius: 5px;
     border: 10px solid #79d3f1;
     box-shadow: 0 0 20px 5px #6dd2e0, 0 0 20px 5px #71cee3 inset;
+    color: #db1dd1;
     font-size: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    animation: 2s spin ease-in-out infinite, 5s colorCycle linear infinite;
-    color: aqua;
+    animation: 2s spin ease-in-out infinite;
 }
 
-/* Mavjud spin animatsiyasi qoladi */
 @keyframes spin {
     0% {
         transform: rotateX(0) rotateY(0) rotateZ(0);
     }
+
     33% {
         transform: rotateX(180deg) rotateY(0) rotateZ(0);
     }
+
     66% {
         transform: rotateX(180deg) rotateY(180deg) rotateZ(0);
     }
+
     100%{
         transform: rotateX(180deg) rotateY(180deg) rotateZ(180deg);
     }
-}
-
-/* Qo‘shilgan rang animatsiyasi */
-@keyframes colorCycle {
-    0% {
-        color: aqua;
-    }
-    20% {
-        color: lime;
-    }
-    40% {
-        color: blue;
-    }
-    60% {
-        color: black;
-    }
-    80% {
-        color: rgb(200, 255, 0);
-    }
-    100% {
-        color: rgb(251, 255, 0);
-    }
-}
+}   
