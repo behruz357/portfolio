@@ -1,89 +1,80 @@
 <!DOCTYPE html>
-<html lang="uz">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Jumaniyazov Behruz - Front-end Developer Portfolio">
-  <title>Jumaniyazov Behruz | Portfolio</title>
-  <link rel="stylesheet" href="./style.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JUMANIYAZOV BEHRUZ</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 </head>
 <body>
+    <header>
+        <h1>JUMANIYAZOV BEHRUZ</h1>
+        <p>Front-end Developer</p>
+        <nav>
+            <a href="#about">Men haqimda</a>
+            <a href="#skills">Ko'nikmalar</a>
+            <a href="#projects">Loihalar</a>
+            <a href="#contact">Aloqa</a>
+        </nav>
+        <img src="./e:\behruz2\behruz.jpg" alt="JUMANIYAZOV BEHRUZ">
+        <div class="container">
+            <div class="box">B</div>
+        </div>
+    </header>
 
-  <header>
-    <h1>Jumaniyazov Behruz</h1>
-    <p>Front-end Developer</p>
+    <main>
+        <section id="about" class="about">
+            <h2>Men haqimda</h2>
+            <p>
+                Men HTML, CSS, JavaScript va biroz React.js bo'yicha va After Efects malakaga ega, 
+                ishtiyoqli front-end dasturchiman. Foydalanuvchilarga qulay va 
+                jozibali veb-ilovalarni yaratishdan zavqlanaman, g'oyalarni funksional 
+                va ko'rinishga ega raqamli tajribalarga aylantiraman. Mening 
+                loyihalarim orasida real vaqtda ob-havo ma'lumotlarini taqdim 
+                etuvchi Ob-havo Ilovasi, valyuta ayirboshlash kurslarini hisoblaydigan 
+                Valyuta Konvertor va foydalanuvchilarni qiziqarli o'yin bilan sinaydigan 
+                15-Puzzle o'yini mavjud. Men toza va samarali kod yozishga sodiqman va 
+                yangi yechimlar yaratish uchun doimiy ravishda ko'nikmalarimni rivojlantiraman.
+            </p>
+        </section>
 
-    <nav>
-      <a href="#about">Men haqimda</a>
-      <a href="#skills">Ko'nikmalar</a>
-      <a href="#projects">Loyihalar</a>
-      <a href="#contact">Aloqa</a>
-    </nav>
+        <section id="skills" class="skills">
+            <h2>Ko'nikmalar</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+          <li> After Efects</li>
+            </ul>
+        </section>
 
-    <img src="./images/behruz.jpg" alt="Jumaniyazov Behruz rasmi">
+        <section id="projects" class="projects">
+            <h2>Loihalar</h2>
+            <div class="project">
+                <h3><a href="./weather.html" target="_blank">Ob-have <i class="bi bi-box-arrow-up-right"></i></a></h3>
+            </div>
+            <div class="project">
+                <h3><a href="./valute.html" target="_blank">Valuta konvertor <i class="bi bi-box-arrow-up-right"></i></a></h3>
+            </div>
+            <div class="project">
+                <h3><a href="./16game.html" target="_blank">15 Puzzle game <i class="bi bi-box-arrow-up-right"></i></a></h3>
+            </div>
+        </section>
 
-    <div class="container">
-      <div class="box">N</div>
-    </div>
-  </header>
+        <section id="contact" class="contact">
+            <h2>Aloqa</h2>
+            <i class="bi bi-telegram" style="color: #02d9ff; font-size: 20px;"></i>
+            <a href="https://t.me/Behruz_357" target="_blank">@Behruz_357</a>
+            <br>
+            <i class="bi bi-telephone-fill" style="color: #0230ff; font-size: 20px;"></i> 
+            <a href="tel:+998 97 453 6683">+998 97 453 66 83</a>
+        </section>
+    </main>
 
-  <main>
-
-    <section id="about" class="about">
-      <h2>Men haqimda</h2>
-      <p>
-        Men HTML, CSS, JavaScript va biroz React.js bo'yicha malakaga ega, ishtiyoqli front-end dasturchiman. 
-        Foydalanuvchilarga qulay va jozibali veb-ilovalarni yaratishdan zavqlanaman. Mening loyihalarim orasida 
-        real vaqtda ob-havo ilovasi, valyuta konvertori va 15-puzzle o'yini mavjud. 
-        Men doimiy ravishda o'sib borishga intilaman.
-      </p>
-    </section>
-
-    <section id="skills" class="skills">
-      <h2>Ko'nikmalar</h2>
-      <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>React.js</li>
-      </ul>
-    </section>
-
-    <section id="projects" class="projects">
-      <h2>Loyihalar</h2>
-
-      <div class="project">
-        <h3><a href="./weather.html" target="_blank">Ob-havo ilovasi <i class="bi bi-box-arrow-up-right"></i></a></h3>
-      </div>
-
-      <div class="project">
-        <h3><a href="./valute.html" target="_blank">Valyuta Konvertori <i class="bi bi-box-arrow-up-right"></i></a></h3>
-      </div>
-
-      <div class="project">
-        <h3><a href="./16game.html" target="_blank">15 Puzzle O'yini <i class="bi bi-box-arrow-up-right"></i></a></h3>
-      </div>
-      
-    </section>
-
-    <section id="contact" class="contact">
-      <h2>Aloqa</h2>
-      <p>
-        <i class="bi bi-telegram" style="color: #02d9ff;"></i>
-        <a href="https://t.me/Behruz_357" target="_blank">@Behruz_357</a>
-      </p>
-      <p>
-        <i class="bi bi-telephone-fill" style="color: #007bff;"></i>
-        <a href="tel:+998974536683">+998 97 453 66 83</a>
-      </p>
-    </section>
-
-  </main>
-
-  <footer>
-    <p>&copy; 2025 Jumaniyazov Behruz. Barcha huquqlar himoyalangan.</p>
-  </footer>
-
+    <footer>
+        <p>&copy; 2025 BEHRUZ</p>
+    </footer>
 </body>
 </html>
